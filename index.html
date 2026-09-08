@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>飛塚 渉 | Web制作ポートフォリオ</title>
+<meta name="description" content="Web制作を学ぶ飛塚渉のポートフォリオサイト。静的サイト、LPの制作実績を紹介しています。">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container">
+    <a href="#top" class="nav-brand">tobitsuka.dev</a>
+    <ul class="nav-links">
+      <li><a href="#about">自己紹介</a></li>
+      <li><a href="#works">作品</a></li>
+      <li><a href="#contact">お問い合わせ</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="container">
+    <div>
+      <span class="hero-eyebrow">Coder</span>
+      <h1>コードで、伝わるものをつくる。</h1>
+      <p>飛塚渉です。デジタルハリウッド オンラインでWeb制作を学び、HTML/CSS/JavaScript、WordPressを使ったサイト制作の練習を重ねています。前職の接客経験を活かし、使う人の立場に立った丁寧なコーディングを心がけています。</p>
+      <div class="hero-actions">
+        <a href="#works" class="btn btn-primary">作品を見る</a>
+        <a href="#contact" class="btn btn-ghost">お問い合わせ</a>
+      </div>
+    </div>
+    <div class="terminal" aria-hidden="true">
+      <div class="terminal-bar">
+        <span class="terminal-dot"></span><span class="terminal-dot"></span><span class="terminal-dot"></span>
+      </div>
+      <pre><span class="tk">const</span> <span class="tv">profile</span> = {
+  <span class="tv">name</span>: <span class="ts">"飛塚 渉"</span>,
+  <span class="tv">role</span>: <span class="ts">"Coder"</span>,
+  <span class="tv">stack</span>: [<span class="ts">"HTML"</span>, <span class="ts">"CSS"</span>, <span class="ts">"JS"</span>, <span class="ts">"WordPress"</span>],
+  <span class="tv">learning</span>: <span class="tv">true</span>,
+};</pre>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="container">
+    <span class="section-label">// about</span>
+    <h2>自己紹介</h2>
+    <div class="about-grid">
+      <div>
+        <p>飲食店で副店長として勤務した後、Webの仕事に興味を持ち、デジタルハリウッド オンラインでWeb制作を学び始めました。店舗運営で培った「お客様の立場に立って考える力」やチームをまとめる調整力は、使いやすいサイトを作る上でも活きていると感じています。</p>
+        <p>学習を始めて約1年、週20時間ほどのペースでHTML/CSS/JavaScript、WordPressの学習・制作を継続しています。まだ初学者レベルですが、粘り強く調べて解決する姿勢を大切にしています。</p>
+        <h3>スキル</h3>
+        <div class="skill-row">
+          <span class="skill-name">HTML/CSS</span>
+          <div class="skill-bar"><div class="skill-fill" style="width: 45%;"></div></div>
+        </div>
+        <div class="skill-row">
+          <span class="skill-name">JavaScript</span>
+          <div class="skill-bar"><div class="skill-fill" style="width: 30%;"></div></div>
+        </div>
+        <div class="skill-row">
+          <span class="skill-name">WordPress(学習中)</span>
+          <div class="skill-bar"><div class="skill-fill" style="width: 20%;"></div></div>
+        </div>
+        <div class="skill-row">
+          <span class="skill-name">Git/GitHub</span>
+          <div class="skill-bar"><div class="skill-fill" style="width: 30%;"></div></div>
+        </div>
+      </div>
+      <div>
+        <h3>これまでの歩み</h3>
+        <ul class="timeline">
+          <li>
+            <span class="timeline-date">約1年前</span>
+            飲食店の副店長を退職し、デジタルハリウッド オンラインでWeb制作の学習を開始。
+          </li>
+          <li>
+            <span class="timeline-date">学習期間中</span>
+            週20時間ほどのペースでHTML/CSS/JavaScript、WordPress、Gitを学習。
+          </li>
+          <li>
+            <span class="timeline-date">直近</span>
+            静的サイト、LPの制作実績が完成。ポートフォリオサイトを制作。
+          </li>
+          <li>
+            <span class="timeline-date">現在</span>
+            コーダー職を中心に就職活動中。
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="works" style="background: var(--bg-alt);">
+  <div class="container">
+    <span class="section-label">// works</span>
+    <h2>制作実績</h2>
+    <p>これまでに制作した2つの実績です。それぞれ担当範囲や工夫した点を詳細ページにまとめています。現在WordPressの学習も進めており、仕上がり次第こちらに追加していく予定です。</p>
+    <div class="works-grid">
+
+      <a class="work-card" href="works/static-site.html">
+        <div class="work-thumb"><img src="images/camp-hero.jpg" alt="SoraCampトップページのファーストビュー" class="work-thumb-img"></div>
+        <div class="work-body">
+          <h3>架空キャンプ場「SoraCamp」公式サイト</h3>
+          <p>Illustratorで作成した場内マップが特徴の、全7ページ構成の静的サイト。</p>
+          <div class="work-tags">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">レスポンシブ</span>
+          </div>
+          <span class="work-more">詳しく見る →</span>
+        </div>
+      </a>
+
+      <a class="work-card" href="works/lp.html">
+        <div class="work-thumb"><img src="images/lp-hero.jpg" alt="手ぶらグランピング新プランLPのファーストビュー" class="work-thumb-img"></div>
+        <div class="work-body">
+          <h3>手ぶらグランピング新プランLP</h3>
+          <p>構成・文言を自分で設計し、実装はAIツールの支援を受けて制作したLP。</p>
+          <div class="work-tags">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+          </div>
+          <span class="work-more">詳しく見る →</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <span class="section-label">// contact</span>
+    <h2>お問い合わせ</h2>
+    <p>ご興味を持っていただけましたら、以下よりお気軽にご連絡ください。</p>
+    <ul class="contact-list">
+      <li><a href="mailto:wataru.tobitsuka.dev@gmail.com">wataru.tobitsuka.dev@gmail.com <span>Email</span></a></li>
+      <li><a href="https://github.com/watarutobitsukadev-png" target="_blank" rel="noopener">github.com/watarutobitsukadev-png <span>GitHub</span></a></li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <span>© 2026 Wataru Tobitsuka</span>
+    <span>Built with HTML / CSS / JS</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
