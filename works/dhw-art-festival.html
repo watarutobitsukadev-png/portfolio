@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DHW芸術祭 公式サイト(スクール課題) | 飛塚 渉</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container">
+    <a href="../index.html" class="nav-brand">tobitsuka.dev</a>
+    <ul class="nav-links">
+      <li><a href="../index.html#about">自己紹介</a></li>
+      <li><a href="../index.html#works">作品</a></li>
+      <li><a href="../index.html#contact">お問い合わせ</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="detail-hero">
+  <div class="container">
+    <a href="../index.html#works" class="breadcrumb">← 作品一覧に戻る</a>
+    <span class="hero-eyebrow">Work 03 / スクール課題</span>
+    <h1>DHW芸術祭 公式サイト</h1>
+    <p>デジタルハリウッド オンラインのカリキュラムで取り組んだ、模写コーディング課題です。トップ・記事一覧・記事詳細・エントリーフォームの全4ページ構成で、フォーム実装やjQueryを使った要素の開閉なども実装しました。</p>
+
+    <div class="meta-grid">
+      <div class="meta-item">
+        <span class="meta-label">担当範囲</span>
+        <p>コーディング(デザイン・素材はスクールカリキュラムより支給、解説動画を見ながら実装)</p>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">使用技術</span>
+        <p>HTML5 / CSS3 / jQuery / レスポンシブ対応(PC・SP)</p>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">制作時期</span>
+        <p>学習を始めたばかりの頃(約1年前)</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container detail-body">
+    <img src="../images/dhw-hero.jpg" alt="DHW芸術祭トップページのファーストビュー" class="detail-shot-img">
+
+    <h3>取り組み方について</h3>
+    <p>デザインカンプ(お手本のデザイン画像)と素材一式をスクールから支給され、解説動画を見ながら1つずつコーディングしていく形式の課題です。デザインを自分で考えたものではありませんが、コーディング自体は自分の手で実装しました。</p>
+
+    <h3>ページ構成</h3>
+    <p>トップページ(index.html)、記事一覧(topics.html)、記事詳細(article.html)、エントリーフォーム(entry.html)の4ページで構成しています。エントリーフォームには、チェックボックス・ラジオボタン・セレクトボックス・テキストエリアなど、様々な入力要素を実装しました。</p>
+
+    <img src="../images/dhw-topics.jpg" alt="DHW芸術祭の記事一覧ページ。写真付きのカードが6件並んでいる" class="detail-shot-img">
+
+    <h3>工夫した点</h3>
+    <p>フォームのチェックボックス・ラジオボタンのチェックマークは、画像を使わずCSSの疑似クラス(<code>:checked</code>)と疑似要素(<code>::after</code>)だけで表現しています。四角形の一部の辺だけに線を引いて回転させることで、チェックマークの形を作る、というテクニックを学びました。ハンバーガーメニューの開閉にはjQueryを使い、クラスの付け外しで表示を切り替える仕組みも実装しています。</p>
+
+    <img src="../images/dhw-entry.jpg" alt="DHW芸術祭のエントリーフォーム。チェックボックスやラジオボタンが並んでいる" class="detail-shot-img">
+
+    <h3>学んだこと・当時の課題</h3>
+    <p>この課題は学習を始めたばかりの頃に取り組んだもので、正直に言うと今はjQueryのコードを細部まで説明できるほど覚えていません。ただ、OGP設定やfavicon設定、レスポンシブ対応、フォーム実装など、Web制作の基本を一通り体系的に経験できたのはこの課題のおかげだと感じています。</p>
+
+    <div class="detail-actions">
+      <a href="https://watarutobitsukadev-png.github.io/dhw-art-festival/" class="btn btn-primary" target="_blank" rel="noopener">サイトを見る</a>
+      <a href="https://github.com/watarutobitsukadev-png/dhw-art-festival" class="btn btn-ghost" target="_blank" rel="noopener">GitHubで見る</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <span>© 2026 Wataru Tobitsuka</span>
+    <span>Built with HTML / CSS / JS</span>
+  </div>
+</footer>
+
+</body>
+</html>
